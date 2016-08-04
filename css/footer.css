@@ -1,0 +1,76 @@
+html {
+	font-family: 'Cutive', serif;
+	text-align: center;
+	font-size: 62.5%;
+}
+/* Background Images w/ Gradient */
+#venues {
+	background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+      ),
+	  url("../images/door.jpg");
+	);
+	height: 50%;
+	width: 50%;
+	margin: auto;
+}
+#hours {
+	background-image: linear-gradient(
+		rgba(0, 0, 0, 0.3),
+		rgba(0, 0, 0, 0.3)
+		),
+		url("../images/coffee.jpg");
+	);
+	height: 50%;
+	width: 50%;
+	margin: auto;
+}
+#events {
+		background-image: linear-gradient(
+		rgba(0, 0, 0, 0.4),
+		rgba(0, 0, 0, 0.4)
+		),
+		url("../images/espresso_pour.jpg");
+	);
+	flex-grow: 2;
+	height: 100%;
+	width: 100%;
+	margin: auto;
+}
+/*Sizing Background Images */
+.fitpretty {
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/* Flex Div */
+.flexing {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+
+	height: 50vh;
+}
+.wrapper {
+	font-family: 'Balthazar', serif;
+	font-weight: lighter;
+	color: white;
+	padding-top: 30%;
+	font-size: 3.5rem;
+	text-align: center;
+}
+
+/*
+.longTile {
+	background-image: url("../images/espresso_pour.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	/*
+	display: flex;
+	height: auto;
+	width: 100vw;
+	justify-content: stretch;
+	align-items: center;
+	*/
