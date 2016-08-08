@@ -22,7 +22,7 @@ nav a {
 	color: black;
 }
 /* Mobile-Medium Display */
-@media (max-width: 700px) {
+
 	/* Hide Unit */
 	.hide {
 		display: none;
@@ -106,7 +106,6 @@ nav a {
 		justify-content: space-around;
 		
 	}
-}
 /*
 .grow {
 	flex-grow: 1;
