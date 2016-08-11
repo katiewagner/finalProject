@@ -3,7 +3,47 @@ html {
 	text-align: center;
 	font-size: 62.5%;
 }
-/* Background Images w/ Gradient */
+/* Navigation Display */
+nav {
+	list-style: none;
+	background-color: #9a9a9a;
+	padding: 0.5rem 0;
+}
+
+.navBar {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+/*
+nav li {
+	display: inline;
+	padding: 0 2.5rem;
+}
+*/
+nav a {
+	text-decoration: none;
+	color: black;
+	color: white;
+	font-size: 2rem;
+}
+nav a:hover {
+	color: black;
+}
+
+.nav2{
+	background-color: #FAEBD7;
+	display: flex;
+	flex-direction: column;
+}
+.nav2 a {
+	color: #9a9a9a;
+}
+
+
+
+/*
 #venues {
 	background-image: linear-gradient(
       rgba(0, 0, 0, 0.5),
@@ -38,13 +78,12 @@ html {
 	width: 100%;
 	margin: auto;
 }
-/*Sizing Background Images */
+
 .fitpretty {
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
-/* Flex Div */
 .flexing {
 	display: flex;
 	flex-direction: row;
@@ -61,6 +100,7 @@ html {
 	font-size: 3.5rem;
 	text-align: center;
 }
+*/
 
 /*
 .longTile {

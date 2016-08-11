@@ -2,32 +2,79 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+
 	<title>Menu</title>
 	<link href='https://fonts.googleapis.com/css?family=Cutive' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Balthazar' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Merriweather:400,300' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Fredericka+the+Great' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 	<header>
 	</header>
-	<nav class="hide">
-		<ul> 
-			<li><a href="#">Hours</a></li>
-			<li><a href="#">Locations</a></li>
-			<li><a href="#">Menu</a></li>
+<nav>
+		<ul class="navBar"> 
+			<li><a id="home" href="index.html">Home</a></li>
+			<li><a href="hours.html">Hours</a></li>
+			<li><a href="locations.html">Locations</a></li>
+			<li><a href="menu.html">Menu</a></li>
 			<li><a href="#">Events</a></li>
 			<li><a href="#">Gallery</a></li>
 		</ul>
 	</nav>
-	<h1>Northside Menu</h1>
-	<h2>Plymouth Road</h2>
-		<a href="images/songBird_northsideMenu.pdf">~Northside Menu~</a>
 
-	<h1>Westside Menu</h1>
-	<h2>Jackson Ave</h2>
-	<a href="images/songBird_westsideMenu.jpg">~Westside Menu~</a>
+	<h3 class="boxIn drinks">Coffee Menu</h3>
+	<div class="drinksList">
+		<h4>Espresso Drinks</h4>
+			<ul class="unList">
+				<li>Americano</li>
+				<li>Espresso</li>
+				<li>Cafe Au Lait</li>
+				<li>Cafe Latte</li>
+				<li>Cappucino</li>
+				<li>Caramel Latte</li>
+				<li>Mocha</li>
+			</ul>
+		<h4>Coffee</h4>
+			<p>House - Mighty Good Coffee Co.</p>
+		<h4>Iced Drinks</h4>
+			<ul class="unList">
+				<li>Iced Coffee</li>
+				<li>Iced Americano</li>
+				<li>Iced Latte</li>
+				<li>Iced Caramel Latte</li>
+				<li>Ied Mocha</li>
+				<li>Iced Chai Latte</li>
+			</ul>
+		<h4>Specialty Drinks</h4>
+			<ul class="unList">
+				<li>Specialty Lattes</li>
+				<li>Matcha Green Tea Latte</li>
+				<li>Tangerine Lavendar Hot Cocoa</li>
+				<li>Hot Cocoa</li>
+				<li>Steamer</li>
+			</ul>
+		<h4>Tea</h4>
+			<ul class="unList">
+				<li>Hot Tea</li>
+				<li>Iced Tea</li>
+				<li>Chai Latte</li>
+			</ul>
+			<p>Loose Leaf: Orgaic English Breakfast | Earl Greay | Pear Cramel | Vanilla Bean | Lychee | Orange Dulce | Green Tea Kyoto Rice | Green Tea Tropical | Coco Chai Roiboos | Mint | Chamomile Citrus | Hibiscus | Jasmine | Roiboos Citrus | Orchid Oolong</p>
+		<h4>Juices, Water, &amp; Sodas</h4>
+	</div>
+	<h3 class="boxIn northMenu">Northside Menu</h3>
+		<div id="showMenuNorth">
+			<h4>Plymouth Road</h4>
+			<a class="linkyLinks" href="images/songBird_northsideMenu.pdf">~Northside Menu PDF~</a>
+		</div>
+	<h3 class="boxIn westMenu">Westside Menu</h3>
+		<div id="showMenuWest">
+			<h4>Jackson Ave</h4>
+			<a class="linkyLinks" href="images/songBird_westsideMenu.pdf">~Westside Menu PDF~</a>
+		</div>
 	<footer>
 		<div>
 			<h3>SONGBiRD North Side</h3>
@@ -40,5 +87,7 @@
 			<p>2891 Jackson Avenue <br>Ann Arbor, MI 48103</p>
 		</div>
 	</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script src="javaScript/script.js"> </script>
 </body>
 </html>

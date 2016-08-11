@@ -13,27 +13,57 @@ header {
 /* Navigation Display */
 nav {
 	list-style: none;
+	background-color: #9a9a9a;
+	padding: 0.5rem 0;
+}
+.navBar{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
 }
 nav li {
 	display: inline;
+	padding: 0 2.5rem;
 }
 nav a {
 	text-decoration: none;
 	color: black;
+	color: white;
+	font-size: 2rem;
 }
-/* Mobile-Medium Display */
-
-	/* Hide Unit */
+nav a:hover {
+	color: black;
+}
+#home {
+	float: left;
+	border: 0.2rem solid white;
+	padding: 1rem;
+}
+/*
+.nav2{
+	background-color: #FAEBD7;
+	display: flex;
+	flex-direction: column;
+}
+.nav2 a, .showMinNav {
+	color: #9a9a9a;
+}
+*/
+/* Hide Unit */
 	.hide {
 		display: none;
 	}
-	/*Sizing Background Images */
+	.drinksList, #showMenuNorth, #showMenuWest {
+		display: none;
+	}
+/*Sizing Background Images */
 	.fitpretty {
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
 	}
-	/* Flex Div */
+/* Flex Div */
 	.flexing {
 		display: flex;
 		flex-direction: row;
@@ -41,7 +71,7 @@ nav a {
 		justify-content: center;
 		/*height: 50vh;*/
 	}
-	/* Background Images w/ Gradient */
+/* Background Images w/ Gradient */
 	#venues {
 		background-image: linear-gradient(
 	      rgba(0, 0, 0, 0.35),
@@ -73,7 +103,7 @@ nav a {
 		width: 100%;
 		height: 64rem;
 	}
-	/* Text Overlay */
+/* Text Overlay */
 	.wrapper {
 		font-family: 'Balthazar', serif;
 		font-weight: lighter;
@@ -82,6 +112,39 @@ nav a {
 		font-size: 3.5rem;
 		text-align: center;
 	}
+	.unList {
+		list-style-type: none;
+		list-style-position: inside;
+		padding-left: 0;
+	}
+/* Maps CSS Properties */
+	#maps {
+      width: 500px;
+      height: 500px;
+      border-radius: 999px;
+      -moz-border-radius: 999px;
+      -khtml-border-radius: 999px;
+      -webkit-border-radius: 999px;
+	}
+
+	#maps .gm-style {
+	      border-radius: 999px;
+      -moz-border-radius: 999px;
+      -khtml-border-radius: 999px;
+      -webkit-border-radius: 999px;	
+	}
+
+.boxIn {
+	border: 3px double black;
+	margin: 1rem 20rem;
+	background-color: #2a2a2a;
+	background-image: url('../images/chalkboard.jpg');
+	color: #e4e4e4;
+	font-size: 2rem;
+	padding: 2rem 0;
+	font-family: 'Fredericka the Great', cursive;
+}
+
 	/*
 	.longTile {
 		background-image: url("../images/espresso_pour.jpg");
@@ -92,13 +155,14 @@ nav a {
 		height: auto;
 		width: 100vw;
 		justify-content: stretch;
+
 		align-items: center;
 		
 	}
 	*/
 	footer {
 		color: white;
-		font-size: 2.5em;
+		font-size: 1rem;
 		background-color: #9a9a9a;
 		display: flex;
 		flex-direction: row;
@@ -111,3 +175,39 @@ nav a {
 	flex-grow: 1;
 	/*flex-shrink: 1;
 }*/
+/*
+@media (max-width: 360px) {
+	nav {
+		display: none;
+	}
+}
+
+@media (min-width: 360px) {
+	.nav2, .showMinNav {
+		display: none;
+	}
+}
+*/
+button {
+	border: none;
+	color: #e4e4e4;
+	background-color: #2a2a2a;
+	font-family: 'Fredericka the Great', cursive;
+	padding: 1.5rem 4rem;
+	margin: 3rem;
+	font-size: 2rem;
+	background-image: url('../images/chalkboard.jpg');
+}
+
+.fancyDay {
+	font-size: 2rem;
+}
+
+.linkyLinks {
+	text-decoration: none;
+	color: black;
+}
+
+a:visted {
+	color: #63a463;
+}
